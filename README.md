@@ -1,6 +1,6 @@
-# typescript-game-sample
+# つりクッマ
 
-**typescript-game-sample**はTypeScriptでAkashicのゲームを作る際のサンプルプロジェクトです。
+**つりクッマ**はAcashicEngineとTypeScriptにより作られたニコニコ生放送向けゲームです。
 
 ## 利用方法
 

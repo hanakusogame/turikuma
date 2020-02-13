@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": [
+      "es5",
+      "es6",
+      "dom"
+    ],
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "outDir": "./script",
+    "types": [
+      "@atsumaru/api-types"
+    ],
+    "watch": true,
+  },
+  "files": [
+    "node_modules/@akashic/akashic-engine/lib/main.d.ts"
+  ],
+  "include": [
+    "./src/**/*.ts"
+  ],
+  /* Strict Type-Checking Options */
+  "strict": true, /* すべての strict タイプ・オプション(noImplicitAny, strictNullChecks, noImplicitThis(thisの型チェック), alwaysStrict(strictモードのjs出力)) を 有効化する */
+  "noImplicitAny": true, /* any型の使用不可 */
+  "strictNullChecks": true, /* nullable型以外でnullを許容しない */
+  /* Additional Checks */
+  "noUnusedLocals": true, /* 未使用の変数を許容しない */
+  "noUnusedParameters": true, /* 未使用の変数を許容しない */
+  "noImplicitReturns": true /* メソッド内で返り値の型があっているかをチェック */
+}
